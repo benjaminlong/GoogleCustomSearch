@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AugmentInterviewSampleNdk</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_google_play_services">GooglePlayServicesActivity</string>
+    <string name="title_activity_augment_search_result">AugmentSearchResultActivity</string>
+    <string name="search_result_statistics">About 0 results in (0.00 seconds)</string>
+    <string name="search_result_powered_by">Powered by Google@ Custom Search</string>
+
+    <string name="ex_search_result_title">How Augmented Reality Works</string>
+    <string name="ex_search_result_link_url">augmentedev.com/how-augmented-reality-works.php</string>
+    <string name="ex_search_result_snippet">
+        Hundreds of Augmented Reality apps are available on iPhone, iPad and Android . On PC and connected TV, Augmented Reality works with a webcam, which ...
+    </string>
+
+</resources>

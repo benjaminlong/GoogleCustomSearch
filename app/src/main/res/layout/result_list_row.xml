@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dip"
+    android:layout_margin="10dip"
+    android:background="#ffffffff" >
+    <!--android:background="@drawable/list_selector"-->
+
+    <TextView
+        android:id="@+id/search_result_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ex_search_result_title"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/search_result_link_url"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#343434"
+        android:textSize="10dip"
+        android:layout_marginTop="1dip"
+        android:text="@string/ex_search_result_link_url" />
+
+    <LinearLayout android:id="@+id/search_result_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dip"
+        android:layout_marginRight="5dip"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/search_result_thumbnail"
+            android:layout_width="130dip"
+            android:layout_height="70dip"
+            android:src="@drawable/search_icon"
+            android:padding="4dip"
+            android:background="#ffffffff" />
+
+        <TextView
+            android:id="@+id/search_result_snippet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#343434"
+            android:textSize="10dip"
+            android:layout_marginTop="1dip"
+            android:text="@string/ex_search_result_snippet"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" />
+
+    </LinearLayout>
+</LinearLayout>
